@@ -1,0 +1,39 @@
+body {
+    background: #f1f1f1;
+    padding: 20px;
+}
+
+.main {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    gap: 100px;
+    align-items: start;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 400px;
+    background: #dddddd;
+    box-shadow:#cccccc 10px 10px 10px;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.item { 
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 200px;
+}
+
+.theory {
+    max-width: 600px;
+    margin-top: 20px;
+    background: #dddddd;
+    box-shadow:#cccccc 10px 10px 10px;
+    border-radius: 5px;
+    padding: 60px 100px;
+}
